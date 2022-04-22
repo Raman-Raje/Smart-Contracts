@@ -1,0 +1,223 @@
+{
+    "contractName": "state",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "age",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "setAge",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"age\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setAge\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/raman.shinde/Desktop/Crypto/solidity/state_var.sol\":\"state\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/raman.shinde/Desktop/Crypto/solidity/state_var.sol\":{\"keccak256\":\"0x914cfcd8aba0e0e587dea0febfb22ed07a8d69f7f77a48437101c7c27c33f875\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://051697c758061182e3f577482cb4b2842df7d9d8202509a285cab8af08dbc2f9\",\"dweb:/ipfs/QmWYP4RpGR4bU8napyUmpwjYXojky8hpPeb7sAehWNEWk7\"]}},\"version\":1}",
+    "bytecode": "6080604052600a60005534801561001557600080fd5b5060cb806100246000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063262a9dff146037578063457676ee146051575b600080fd5b603f60005481565b60405190815260200160405180910390f35b60576059565b005b600a600080828254606991906070565b9091555050565b60008219821115609057634e487b7160e01b600052601160045260246000fd5b50019056fea264697066735822122035493d302988758a96c7ce075cf3ea3f44908573e29dfa23ea4e6b26e3c0f88f64736f6c634300080a0033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060325760003560e01c8063262a9dff146037578063457676ee146051575b600080fd5b603f60005481565b60405190815260200160405180910390f35b60576059565b005b600a600080828254606991906070565b9091555050565b60008219821115609057634e487b7160e01b600052601160045260246000fd5b50019056fea264697066735822122035493d302988758a96c7ce075cf3ea3f44908573e29dfa23ea4e6b26e3c0f88f64736f6c634300080a0033",
+    "sourceMap": "71:117:4:-:0;;;110:2;92:20;;71:117;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "71:117:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;92:20;;;;;;;;;160:25:5;;;148:2;133:18;92:20:4;;;;;;;131:52;;;:::i;:::-;;;173:2;166:3;;:9;;;;;;;:::i;:::-;;;;-1:-1:-1;;131:52:4:o;196:225:5:-;236:3;267:1;263:6;260:1;257:13;254:136;;;312:10;307:3;303:20;300:1;293:31;347:4;344:1;337:15;375:4;372:1;365:15;254:136;-1:-1:-1;406:9:5;;196:225::o",
+    "sourcePath": "c:/Users/raman.shinde/Desktop/Crypto/solidity/state_var.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.10+commit.fc410830"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/raman.shinde/Desktop/Crypto/solidity/state_var.sol",
+        "exportedSymbols": {
+            "state": [
+                86
+            ]
+        },
+        "id": 87,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 74,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.5",
+                    ".0",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "35:32:4"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "state",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 86,
+                "linearizedBaseContracts": [
+                    86
+                ],
+                "name": "state",
+                "nameLocation": "80:5:4",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "262a9dff",
+                        "id": 77,
+                        "mutability": "mutable",
+                        "name": "age",
+                        "nameLocation": "104:3:4",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 86,
+                        "src": "92:20:4",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 75,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "92:4:4",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "3130",
+                            "id": 76,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "110:2:4",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_rational_10_by_1",
+                                "typeString": "int_const 10"
+                            },
+                            "value": "10"
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 84,
+                            "nodeType": "Block",
+                            "src": "155:28:4",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 82,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 80,
+                                            "name": "age",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 77,
+                                            "src": "166:3:4",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "+=",
+                                        "rightHandSide": {
+                                            "hexValue": "3130",
+                                            "id": 81,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "number",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "173:2:4",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_rational_10_by_1",
+                                                "typeString": "int_const 10"
+                                            },
+                                            "value": "10"
+                                        },
+                                        "src": "166:9:4",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 83,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "166:9:4"
+                                }
+                            ]
+                        },
+                        "functionSelector": "457676ee",
+                        "id": 85,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "setAge",
+                        "nameLocation": "140:6:4",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 78,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "146:2:4"
+                        },
+                        "returnParameters": {
+                            "id": 79,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "155:0:4"
+                        },
+                        "scope": 86,
+                        "src": "131:52:4",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 87,
+                "src": "71:117:4",
+                "usedErrors": []
+            }
+        ],
+        "src": "35:153:4"
+    },
+    "functionHashes": {
+        "age()": "262a9dff",
+        "setAge()": "457676ee"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "40600",
+            "executionCost": "22199",
+            "totalCost": "62799"
+        },
+        "external": {
+            "age()": "2261",
+            "setAge()": "24439"
+        }
+    }
+}

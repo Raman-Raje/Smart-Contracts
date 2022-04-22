@@ -1,0 +1,350 @@
+{
+    "contractName": "Cntr",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "new_pin",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "newcity",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [],
+            "name": "city",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "pin",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"new_pin\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"newcity\",\"type\":\"string\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"city\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pin\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/raman.shinde/Desktop/Crypto/solidity/constructor.sol\":\"Cntr\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/raman.shinde/Desktop/Crypto/solidity/constructor.sol\":{\"keccak256\":\"0xdc74642926b44a2bb46c575e992ba33c1c794d5b0124f53bd2f93bfc030c55e2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://92b05068086dc9dad7cf4d6150337ab712f9481cff137d1337e8eaf6fc606742\",\"dweb:/ipfs/QmYubsBmqsZ7EdaW5rAKVbQZm8pTbNQkWuSPCZ229PF5TD\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b506040516103e53803806103e583398101604081905261002f916100fe565b6000829055805161004790600190602084019061004f565b505050610216565b82805461005b906101db565b90600052602060002090601f01602090048101928261007d57600085556100c3565b82601f1061009657805160ff19168380011785556100c3565b828001600101855582156100c3579182015b828111156100c35782518255916020019190600101906100a8565b506100cf9291506100d3565b5090565b5b808211156100cf57600081556001016100d4565b634e487b7160e01b600052604160045260246000fd5b6000806040838503121561011157600080fd5b8251602080850151919350906001600160401b038082111561013257600080fd5b818601915086601f83011261014657600080fd5b815181811115610158576101586100e8565b604051601f8201601f19908116603f01168101908382118183101715610180576101806100e8565b81604052828152898684870101111561019857600080fd5b600093505b828410156101ba578484018601518185018701529285019261019d565b828411156101cb5760008684830101525b8096505050505050509250929050565b600181811c908216806101ef57607f821691505b6020821081141561021057634e487b7160e01b600052602260045260246000fd5b50919050565b6101c0806102256000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063cf25b09f1461003b578063fd0160fe14610057575b600080fd5b61004460005481565b6040519081526020015b60405180910390f35b61005f61006c565b60405161004e91906100fa565b600180546100799061014f565b80601f01602080910402602001604051908101604052809291908181526020018280546100a59061014f565b80156100f25780601f106100c7576101008083540402835291602001916100f2565b820191906000526020600020905b8154815290600101906020018083116100d557829003601f168201915b505050505081565b600060208083528351808285015260005b818110156101275785810183015185820160400152820161010b565b81811115610139576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c9082168061016357607f821691505b6020821081141561018457634e487b7160e01b600052602260045260246000fd5b5091905056fea2646970667358221220a0fd026ca920535e517de8935eec9786e5b22e335a401a632281e256a2bd573364736f6c634300080a0033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100365760003560e01c8063cf25b09f1461003b578063fd0160fe14610057575b600080fd5b61004460005481565b6040519081526020015b60405180910390f35b61005f61006c565b60405161004e91906100fa565b600180546100799061014f565b80601f01602080910402602001604051908101604052809291908181526020018280546100a59061014f565b80156100f25780601f106100c7576101008083540402835291602001916100f2565b820191906000526020600020905b8154815290600101906020018083116100d557829003601f168201915b505050505081565b600060208083528351808285015260005b818110156101275785810183015185820160400152820161010b565b81811115610139576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c9082168061016357607f821691505b6020821081141561018457634e487b7160e01b600052602260045260246000fd5b5091905056fea2646970667358221220a0fd026ca920535e517de8935eec9786e5b22e335a401a632281e256a2bd573364736f6c634300080a0033",
+    "sourceMap": "72:180:1:-:0;;;143:104;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;201:3;:13;;;225:12;;;;:4;;:12;;;;;:::i;:::-;;143:104;;72:180;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;72:180:1;;;-1:-1:-1;72:180:1;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;14:127:5;75:10;70:3;66:20;63:1;56:31;106:4;103:1;96:15;130:4;127:1;120:15;146:1148;235:6;243;296:2;284:9;275:7;271:23;267:32;264:52;;;312:1;309;302:12;264:52;335:16;;370:2;401:18;;;395:25;335:16;;-1:-1:-1;370:2:5;-1:-1:-1;;;;;469:14:5;;;466:34;;;496:1;493;486:12;466:34;534:6;523:9;519:22;509:32;;579:7;572:4;568:2;564:13;560:27;550:55;;601:1;598;591:12;550:55;630:2;624:9;652:2;648;645:10;642:36;;;658:18;;:::i;:::-;733:2;727:9;701:2;787:13;;-1:-1:-1;;783:22:5;;;807:2;779:31;775:40;763:53;;;831:18;;;851:22;;;828:46;825:72;;;877:18;;:::i;:::-;917:10;913:2;906:22;952:2;944:6;937:18;992:7;987:2;982;978;974:11;970:20;967:33;964:53;;;1013:1;1010;1003:12;964:53;1035:1;1026:10;;1045:129;1059:2;1056:1;1053:9;1045:129;;;1147:10;;;1143:19;;1137:26;1116:14;;;1112:23;;1105:59;1070:10;;;;1045:129;;;1192:2;1189:1;1186:9;1183:80;;;1251:1;1246:2;1241;1233:6;1229:15;1225:24;1218:35;1183:80;1282:6;1272:16;;;;;;;;146:1148;;;;;:::o;1299:380::-;1378:1;1374:12;;;;1421;;;1442:61;;1496:4;1488:6;1484:17;1474:27;;1442:61;1549:2;1541:6;1538:14;1518:18;1515:38;1512:161;;;1595:10;1590:3;1586:20;1583:1;1576:31;1630:4;1627:1;1620:15;1658:4;1655:1;1648:15;1512:161;;1299:380;;;:::o;:::-;72:180:1;;;;;;",
+    "deployedSourceMap": "72:180:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;94:15;;;;;;;;;160:25:5;;;148:2;133:18;94:15:1;;;;;;;;116:18;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;196:597:5:-;308:4;337:2;366;355:9;348:21;398:6;392:13;441:6;436:2;425:9;421:18;414:34;466:1;476:140;490:6;487:1;484:13;476:140;;;585:14;;;581:23;;575:30;551:17;;;570:2;547:26;540:66;505:10;;476:140;;;634:6;631:1;628:13;625:91;;;704:1;699:2;690:6;679:9;675:22;671:31;664:42;625:91;-1:-1:-1;777:2:5;756:15;-1:-1:-1;;752:29:5;737:45;;;;784:2;733:54;;196:597;-1:-1:-1;;;196:597:5:o;798:380::-;877:1;873:12;;;;920;;;941:61;;995:4;987:6;983:17;973:27;;941:61;1048:2;1040:6;1037:14;1017:18;1014:38;1011:161;;;1094:10;1089:3;1085:20;1082:1;1075:31;1129:4;1126:1;1119:15;1157:4;1154:1;1147:15;1011:161;;798:380;;;:::o",
+    "sourcePath": "c:/Users/raman.shinde/Desktop/Crypto/solidity/constructor.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.10+commit.fc410830"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/raman.shinde/Desktop/Crypto/solidity/constructor.sol",
+        "exportedSymbols": {
+            "Cntr": [
+                24
+            ]
+        },
+        "id": 25,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 3,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.5",
+                    ".0",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "35:32:1"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Cntr",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 24,
+                "linearizedBaseContracts": [
+                    24
+                ],
+                "name": "Cntr",
+                "nameLocation": "81:4:1",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "cf25b09f",
+                        "id": 5,
+                        "mutability": "mutable",
+                        "name": "pin",
+                        "nameLocation": "106:3:1",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 24,
+                        "src": "94:15:1",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 4,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "94:4:1",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "fd0160fe",
+                        "id": 7,
+                        "mutability": "mutable",
+                        "name": "city",
+                        "nameLocation": "130:4:1",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 24,
+                        "src": "116:18:1",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 6,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "116:6:1",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 22,
+                            "nodeType": "Block",
+                            "src": "190:57:1",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 16,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 14,
+                                            "name": "pin",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "201:3:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 15,
+                                            "name": "new_pin",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 9,
+                                            "src": "207:7:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "src": "201:13:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 17,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "201:13:1"
+                                },
+                                {
+                                    "expression": {
+                                        "id": 20,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 18,
+                                            "name": "city",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 7,
+                                            "src": "225:4:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage",
+                                                "typeString": "string storage ref"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 19,
+                                            "name": "newcity",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 11,
+                                            "src": "230:7:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string memory"
+                                            }
+                                        },
+                                        "src": "225:12:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "id": 21,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "225:12:1"
+                                }
+                            ]
+                        },
+                        "id": 23,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 12,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 9,
+                                    "mutability": "mutable",
+                                    "name": "new_pin",
+                                    "nameLocation": "160:7:1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 23,
+                                    "src": "155:12:1",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 8,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "155:4:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 11,
+                                    "mutability": "mutable",
+                                    "name": "newcity",
+                                    "nameLocation": "182:7:1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 23,
+                                    "src": "168:21:1",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 10,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "168:6:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "154:36:1"
+                        },
+                        "returnParameters": {
+                            "id": 13,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "190:0:1"
+                        },
+                        "scope": 24,
+                        "src": "143:104:1",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 25,
+                "src": "72:180:1",
+                "usedErrors": []
+            }
+        ],
+        "src": "35:217:1"
+    },
+    "functionHashes": {
+        "city()": "fd0160fe",
+        "pin()": "cf25b09f"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "89600",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "city()": "infinite",
+            "pin()": "2262"
+        }
+    }
+}
